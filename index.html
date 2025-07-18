@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúncio Carmi</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Esconde barras de rolagem, se aparecerem */
+            background-color: black; /* Fundo preto para preencher espaços, se houver */
+        }
+        video {
+            width: 100vw;   /* Largura total da viewport */
+            height: 100vh;  /* Altura total da viewport */
+            object-fit: contain; /* Garante que o vídeo se ajuste sem cortar ou esticar */
+            display: block; /* Remove espaços extras abaixo do vídeo */
+        }
+    </style>
+</head>
+<body>
+    <video src="anuncio.mp4" loop autoplay muted playsinline></video>
+</body>
+</html>
